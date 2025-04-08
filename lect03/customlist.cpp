@@ -44,6 +44,14 @@ void createPlaylist(){
 
 
 
+ CustomList list;
+    list.add("Bad");
+    list.add("Beat It");
+    list.add("Thriller");
+    Node* temp = list.head;
+    while (temp=temp->next){
+        cout << temp->value;
+    }
 
 
 
@@ -68,4 +76,4 @@ void createPlaylist(){
 int main(){
     createPlayList();
     return 0;
-}
+}}
