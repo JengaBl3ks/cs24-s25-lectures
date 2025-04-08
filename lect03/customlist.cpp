@@ -39,30 +39,14 @@ public:
 // Safety (e.g., avoiding data corruption).
 
 void createPlaylist(){
-   
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    CustomList list;
+    list.add("Bad");
+    list.add("Beat It");
+    list.add("Thriller");
+    Node* temp = list.head;
+    while (temp=temp->next){
+        cout << temp->value;
+    }
 }
 
 int main(){
